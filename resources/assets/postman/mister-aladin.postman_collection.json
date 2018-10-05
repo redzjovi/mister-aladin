@@ -1,0 +1,128 @@
+{
+	"variables": [],
+	"info": {
+		"name": "mister-aladin",
+		"_postman_id": "9b4f4524-d7d7-b761-cdcb-9bcf68f668e1",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost/laravel/mister-aladin/public/api/users",
+			"request": {
+				"url": "http://localhost/laravel/mister-aladin/public/api/users",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Jovi",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "jovi@mailinator.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "phone_number",
+							"value": "087877118199",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/laravel/mister-aladin/public/api/users",
+			"request": {
+				"url": "http://localhost/laravel/mister-aladin/public/api/users",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Jovi",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "jovi@mailinator.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "phone_number",
+							"value": "087877118199",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/laravel/mister-aladin/public/api/images",
+			"request": {
+				"url": "http://localhost/laravel/mister-aladin/public/api/images",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Jovi",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "jovi@mailinator.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "phone_number",
+							"value": "087877118199",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
