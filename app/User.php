@@ -29,4 +29,10 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    public function getImageAttribute($value)
+    {
+        $image = $value ? \Storage::url($value) : '';
+        return $image;
+    }
 }
